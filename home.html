@@ -6,6 +6,9 @@
     <title>blue-nile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="./index.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <!--navbar-->
@@ -82,7 +85,7 @@
                         <div class="inner">
                           <div class="txt-green text-center">
                           <p class="small-txt">Rock Gardens II</p>
-                          <p class="small-txt text-red">KShs.450,000,000(for sale)</p>
+                          <p class="small-txt text-red">KShs.450,000,000(For sale)</p>
                           <p class="small-txt">Beds:5<br>Sq.Ft:5735<br>Baths:5</p>
         
                         </div>
@@ -102,7 +105,7 @@
                 <div class="inner">
                   <div class="txt-green text-center">
                   <p class="small-txt">Silver Harbor</p>
-                  <p class="small-txt">Kshs.4,500,000(for sale)</p>
+                  <p class="small-txt">Kshs.4,500,000(For sale)</p>
                   <p class="small-txt">Beds:3<br>Sq.Ft:1735<br>Baths:2</p>
 
                 </div>
@@ -126,7 +129,7 @@
                         <div class="inner">
                           <div class="txt-green text-center">
                           <p class="small-txt">Peacon Estate</p>
-                          <p class="small-txt">Kshs.50,000,000(for sale)</p>
+                          <p class="small-txt">Kshs.50,000,000(For rent)</p>
                           <p class="small-txt">Beds:7<br>Sq.Ft:3735<br>Baths:5</p>
         
                         </div>
@@ -146,7 +149,7 @@
                         <div class="inner">
                           <div class="txt-green text-center">
                           <p class="small-txt">Kings Serenity</p>
-                          <p class="small-txt">KShs.5,500,000(for sale)</p>
+                          <p class="small-txt">KShs.5,500,000(For rent)</p>
                           <p class="small-txt">Beds:4<br>Sq.Ft:1700<br>Baths:3</p>
         
                         </div>
@@ -159,6 +162,107 @@
       </div>  
      </div>
     </div>
+    <section class="search-form">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 col-sm-12">
+                  <div class="quick-search">
+
+                      <form role="form" id="form">
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                  <label for="country">County</label>
+                                  <select class="form-control" id="country">
+                                      <option value="nairobi">Nairobi</option>
+                                      <option value="mombasa">Mombasa</option>
+                                      <option value="kisumu">Kisumu</option>
+                                      <option value="nakuru">Nakuru</option>
+                                      <option value="busia">Busia</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="bedroom">Bedroom</label>
+                                  <select class="form-control">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <!-- break -->
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                  <label for="location">Location</label>
+                                  <select class="form-control">
+                                      <option>Karen</option>
+                                      <option>Kitusuri</option>
+                                      <option>Lavington</option>
+                                      <option>Kitengela</option>
+                                      <option>Kileleshwa</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="bathroom">Bathroom</label>
+                                  <select class="form-control">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <!-- break -->
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                  <label for="status">Status</label>
+                                  <select class="form-control" id="status">
+                                      <option value="sale">For Sale</option>
+                                      <option value="rent">For Rent</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="minprice">Min Price</label>
+                                  <select class="form-control">
+                                      <option>Ksh.200,400</option>
+                                      <option>Ksh.600,300</option>
+                                      <option>ksh.900,100</option>
+                                      <option>Ksh.910,100</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <!-- break -->
+                          <div class="col-md-3">
+                              <div class="form-group">
+                                  <label for="type">Type</label>
+                                  <select class="form-control" id="type">
+                                      <option value="villa">Villa</option>
+                                      <option value="resident">Resident</option>
+                                      <option value="commercial">Commercial</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <label for="maxprice">Max Price</label>
+                                  <select class="form-control">
+                                      <option>Ksh.200,400</option>
+                                      <option>Ksh.600,300</option>
+                                      <option>Ksh.900,100</option>
+                                      <option>Ksh.950,100</option>
+                                  </select>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                              <button name="submit"
+                              onclick="searchProperty();return false;" 
+                                  class="btn btn-success btn-lg btn-block" type="submit">Search</div>
+
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+          <div id="results"></div>
+      </div>
   </section>
   <!--footer-->
   <section class="footer">
