@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact page</title>
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+<!--navbar-->
+
+<section class="bg-landing">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navTop">
+        <a class="logo-font navbar-brand" href="#">Blue-Nile <br> Properties.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav my-4 ml-auto">
+            <li class="nav-item ml-10 active">
+              <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link" href="#">Search</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item ml-10">
+              <a class="nav-link" href="#" >About Us:</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</section>	
+<section id="after-bg">
+	<div class="container">
+		<div  id="contact-text">
+			
+			<h1>CONTACT US </h1>
+			<p>You can reach out to us on our workplace for more information or send an email to the provided e-mail address or call us on the contact number provided in case you have a problem or need information we are available in all week days except on sunday . </p>
+
+			
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="address-form">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/location.png" class="icons">
+					</div>
+					<div class="col-md-6">
+						<h3>Address</h3>	
+						<p>3456 blue nile road<br>Kenya,Nairobi<br>34872</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/phone.png" class="icons">
+					</div>
+					<div class="col-md-6">
+						<h3>Phone</h3>
+						<p>205-444-6872</p>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/email.png" class="icons">
+					</div>
+					<div class="col-md-6">
+						<h3>Email</h3>
+						<p>bluenileproperties@gmail.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6" id="contact-form">
+				<form>
+					<h2>Send Message</h2>
+					<div class="input-box">
+						<input type="text" id="input-box1" name="full_name" required="required">
+						<span class="label-text">Full Name</span>
+					</div>
+					<div class="input-box">
+						<input type="text" id="input-box2" name="email" required="required">
+						<span class="label-text">Email</span>
+					</div>
+					<div class="input-box">
+						<textarea type="text" id="input-box3" name="message" required="required"></textarea>
+						<span class="label-text">Your message here</span>
+					</div>
+					<div class="input-box">
+						<input id="submit" type="submit" onclick="replyMessage()" name="submit" value="Send">
+					</div>
+
+
+
+
+				</form>
+			</div>	
+			
+		</div>
+	</div>
+</section>
+<section class="footer">
+    <div class="container">
+
+      <div class="outer">
+        <div class="sans serif font txt-white mar-top2">
+            <div class="featured-listings container-fluid">
+                <h3 class="heading"><center>BLUE-NILE <span>PROPERTIES</span></center></h3>
+              </div>
+          <p class="small text">Our properties are the most efficients with large spacious rooms to rent<br>
+            to accept visitors and orders at any time of the day and night within Nairobi.</p>
+        </div>
+        <p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </p>
+        <div class="txt-white">
+          <p class="small text">© 2021. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
