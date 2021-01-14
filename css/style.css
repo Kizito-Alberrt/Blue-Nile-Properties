@@ -1,0 +1,41 @@
+
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700');
+@import url('font-awesome.css');
+@import url('animate.css');
+
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#656565;
+}
+section.search-form {
+    background: hsla(0,0%,100%,.67);}
+.container {
+    padding: 0 20px 0 20px;
+    position: relative;
+    color: #006a5b !important;}
+.row, .row-fluid {
+    margin-bottom: 30px;
+}
+.search{
+	float:right;
+	margin:35px 0 0;
+	padding-bottom:0;
+}
+.search{
+	float:left;
+}
+.btn {
+    text-align: center;
+    background: linear-gradient(141deg,#056b5b 35%,#9dd85c 103%);    color: #fff;
+    border-color: #1B93FD;
+    padding: 6px 12px;
+    border-radius: 0;
+}
+#results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{ 
+    font-family:'Open Sans', Arial, sans-serif;
+}
+.headings{
+    margin-left:40%;
+    color:green;
+}
+/*navbar*/
+.navbar-collapse{
+    left:70%;
+    position:fixed;
+    padding:5px;
+    margin:10px;
+    top:0%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.navbar-brand{
+    left:10%;
+}
+/*background image*/
+.bg-landing{
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.849)), url("/img/background3.jpg")  no-repeat center center ;
+    background-size: cover;
+}
+/*logo font*/
+
+.logo-font{
+    font-family:'Open Sans', Arial, sans-serif;
+    text-transform:uppercase ;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    margin:25px;
+}
+/*listings stylings*/
+.outer{
+    min-width: 100%;
+    height: 80%;
+    background-color:transparent;
+    display: grid;
+    place-items: center;
+}
+.inner{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+}
+.outer1{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.inner1{
+    flex: 1 1 500px;
+    margin: 5px;
+    background:transparent;
+    height: 100%;
+    color: black;
+    width: 100%;
+}
+.landing-txt{
+    color: white;
+}
+.landing-hd{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+}
+.landing-p{
+    font-weight: lighter;
+    font-size: 24px;
+    color: whitesmoke;
+}
+.mar-top{
+    margin-top: 70px;
+}
+.mar-top1{
+    margin-top: 10px;
+}
+.mar-top2{
+    margin-top: 40px;
+}
+.mar-left{
+    margin-left: 20px;
+}
+.mar-all1{
+    margin:5px;
+}
+.mar-bot{
+    margin-bottom: 40px;
+}
+.pad-1{
+    width: 100%;
+    height: 150px;
+}
+.pad-auto{
+    width: 100%;
+    height: auto;
+}
+.pad-auto1{
+    width: auto;
+    height: auto;
+}
+.border-trans{
+    border: transparent;
+}
+.welcome-sec{
+    width: auto;
+    height: auto;
+    background: lavender;
+}
+.welcome-p{
+    color: black;
+    margin-top: 20px;
+}
+.welcome-hd{
+    font-weight: 600;
+    font-size: 29px;
+    letter-spacing: 2.5px;
+    color: black;
+}
+/* featured listings images*/
+.h-img1{
+    background:linear-gradient(rgba(19, 61, 13, 0.295),rgba(19, 61, 13, 0.274)), url("../img/house1.jpg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.h-img2{
+    background:linear-gradient(rgba(19, 61, 13, 0.295),rgba(19, 61, 13, 0.274)), url("../img/house2.jpg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.h-img3{
+    background:linear-gradient(rgba(19, 61, 13, 0.295),rgba(19, 61, 13, 0.274)), url("../img/house3.jpg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.h-img4{
+    background:linear-gradient(rgba(253, 193, 13, 0.055),rgba(253, 193, 13, 0.075)), url("../img/house4.jpg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+/*featured listings texts*/
+.small-txt{
+    font-size: 20px;
+    font-family: 'Satisfy';
+    font-weight: 350;
+}
+.smaller-txt{
+    font-size:20px;
+    color:red;
+}
+.large-txt{
+    font-size: 33px;
+    font-weight: 600;
+}
+.list-hd{
+    font-size: 30px;
+    font-weight: 600;
+}
+.list-txt{
+    font-size: 25px;
+    font-family: 'aerial Sans serif';
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+.txt-white{
+    color: white;
+}
+.txt-green{
+    color :#218838;
+}
+.txt-black{
+    color: black;
+}
+.txt-lg-ft{
+    font-weight: 900;
+}
+.txt-lg-ft2{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: auto;
+    background: #081b0cee;
+}
+.footer-contact{
+    width: 100%;
+    height: 100vh;
+    background: #081b0cee;
+}
+.bg-lavender{
+    background: lavender;
+}
+/*social media icons*/
+.fa {
+    padding: 18px;
+    font-size: 10px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    background: linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.849)),
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
