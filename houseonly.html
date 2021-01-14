@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/search.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/img/img 29.jpg" class="d-block w-80"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Residential houses</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img/img 33.jpg" class="d-block w-80" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Rental houses</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img/img 38.jpg"  class="d-block w-80"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Commercial houses</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+    <h1>Blue-Nile Properties</h1>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Property type</button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Select your choice" id="myInput" onkeyup="filterFunction()">
+          <a href="all.html">All</a>
+          <a href="search.html">mobile home</a>
+          <a href="residential.html">Residential house</a>
+          <a href="commercial.html">Commercial space</a>
+          <a href="multi-unit.html">Multi unit-residential</a>
+          <a href="houseonly.html">House only</a>
+          <a href="land.html">land for sale</a>
+        </div>
+      </div>
+    
+      <h2>Houses for sale</h2>
+      <section class="section featured">
+        <div class="title">
+          <h1>House for sale</h1>
+        </div>
+  
+        <div class="product-center container">
+          <div class="product">
+            <div class="product-header">
+              <img src="./img/img/img 11.jpg" alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-shopping-bag"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#">
+                <h3>Buruburu 4 bedroom </h3>
+              </a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price"> from Ksh 5,000,000 </h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./img/img/img 13.jpg"  alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-shopping-bag"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#"><h3>Lavington 5 bedroom</h3></a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">10,000,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./img/img/img 14.jpg"  alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-shopping-bag"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#"><h3>Kitusuri 6 bedroom</h3></a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">from 30,000,000</h4>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./img/img/img 15.jpg"  alt="">
+  
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-shopping-bag"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#"><h3>Karen 4 bedroom</h3></a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Ksh55,000,000</h4>
+            </div>
+          
+          </div>
+          <div class="product">
+            <div class="product-header">
+              <img src="./img/img/img 16.jpg"  alt="">
+              <ul class="icons">
+                <span><i class="bx bx-heart"></i></span>
+                <span><i class="bx bx-shopping-bag"></i></span>
+                <span><i class="bx bx-search"></i></span>
+              </ul>
+            </div>
+            <div class="product-footer">
+              <a href="#"><h3>Muthaiga 5 bedroom</h3></a>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4 class="price">Ksh75,000,000</h4>
+            </div>
+            
+          
+        </div>
+        <div class="product">
+          <div class="product-header">
+            <img src="./img/img/img 12.jpg"  alt="">
+            <ul class="icons">
+              <span><i class="bx bx-heart"></i></span>
+              <span><i class="bx bx-shopping-bag"></i></span>
+              <span><i class="bx bx-search"></i></span>
+            </ul>
+          </div>
+          <div class="product-footer">
+            <a href="#"><h3>Ngong 4 bedroom</h3></a>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bx-star"></i>
+            </div>
+            <h4 class="price">Ksh7,000,000</h4>
+          </div>
+          
+      </section>
+      <section class="footer">
+        <div class="container">
+            
+          <div class="outer">
+            <div class="sans serif font txt-white mar-top2">
+                <div class="featured-listings container-fluid">
+                    <h3 class="heading">BLUE-NILE <span>PROPERTIES</span></h3>
+                  </div>
+              <p class="small text">Our properties are the most efficients with large spacious rooms to rent<br>
+                to accept visitors and orders at any time of the day and night within Nairobi.</p>
+            </div>
+            <p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </p>
+            <div class="txt-white">
+              <p class="small text">© 2021. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <script src="./js/search.js"></script>
+</body>
+</html>
