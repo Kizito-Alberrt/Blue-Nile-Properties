@@ -27,7 +27,7 @@ body{
 .bg-landing{
     width: auto;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.849)), url("/img/background3.jpg")  no-repeat center center ;
+    background: linear-gradient(rgba(0, 0, 0, 0.664),rgba(0, 0, 0, 0.849)), url("./img/background3.jpg")  no-repeat center center ;
     background-size: cover;
 }
 /*logo font*/
